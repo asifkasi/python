@@ -1,0 +1,15 @@
+Jupyter autocomplete
+1,213 views  Sep 11, 2021  To install the jupyter_contrib_nbextensions notebook extensions follow the  three steps:
+# 1 Installing the pip package
+pip install jupyter_contrib_nbextensions
+
+# 2 installs nbextension files, and edits nbconvert config files 
+pip install jupyter contrib nbextension install --user
+
+# 3 Enable nbextension, which tells the notebook interface to load it
+pip install jupyter nbextension enable varInspector/main
+
+After this you will see "Vaildating: ok" Then you can restart jupyter notebook you will see the extension configurator UI
+
+
+Finally, by checking the ‘Hinterland’ box, you’ll enable autocompletion on Jupyter Notebooks
