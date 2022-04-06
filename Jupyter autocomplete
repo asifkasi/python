@@ -4,10 +4,10 @@ Jupyter autocomplete
 pip install jupyter_contrib_nbextensions
 
 # 2 installs nbextension files, and edits nbconvert config files 
-pip install jupyter contrib nbextension install --user
+upyter contrib nbextension install --user
 
 # 3 Enable nbextension, which tells the notebook interface to load it
-pip install jupyter nbextension enable varInspector/main
+jupyter nbextension enable varInspector/main
 
 After this you will see "Vaildating: ok" Then you can restart jupyter notebook you will see the extension configurator UI
 
